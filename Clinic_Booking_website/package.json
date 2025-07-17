@@ -1,0 +1,22 @@
+{
+  "name": "Clinic_Booking_website",
+  "version": "1.0.0",
+  "description": "Clinic booking website for university project (DACN)",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000 --host=0.0.0.0 --no-browser",
+    "dev": "npx live-server --port=3000 --host=0.0.0.0 --no-browser --watch=*.html,css/**,js/**",
+    "format": "prettier --write *.html css/**/*.css js/**/*.js"
+  },
+  "keywords": ["clinic", "booking", "website", "html", "css", "javascript"],
+  "author": "phanhuuthang1612",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "prettier": "^3.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phanhuuthang1612/Clinic_Booking_DACN.git"
+  }
+}
